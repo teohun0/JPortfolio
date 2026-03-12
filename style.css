@@ -254,6 +254,25 @@ html {
   font-weight: bold;
 }
 
+.stagger-list li.list-category {
+  color: var(--apple-blue);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 0;
+  margin-bottom: 0.6rem;
+  pointer-events: none;
+}
+
+.light-section .stagger-list li.list-category {
+  color: #0071e3;
+}
+
+.stagger-list li.list-category::before {
+  display: none;
+}
+
 /* Bento Grid */
 .gallery-content {
   flex: 1;
